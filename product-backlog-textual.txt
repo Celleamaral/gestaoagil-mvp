@@ -1,0 +1,497 @@
+Jornada de login (SCRUM-1)
+
+   [SCRUM-8] POP UP de personalização Criado: 24/nov/24    Atualizado(a): 30/nov/24
+
+
+
+Status:                      Tarefas pendentes
+Projeto:                     Desenvolvimento de software
+Componentes:                 Nenhum
+Versões afetadas:            Nenhum
+Versões corrigidas:          Nenhum
+Pai:                         Jornada de login
+
+Tipo:                        História                           Prioridade:           Medium
+Relator:                     Marcelle Amaral                    Responsável:          Não atribuído
+Resolução:                   Não resolvido(s)                   Votos:                0
+Categorias:                  Nenhum
+Estimativa de trabalho       Desconhecido
+restante:
+Tempo gasto:                 Desconhecido
+Estimativa original:         Desconhecido
+
+Anexos:                        image-20241127-214006.png
+Rank:                        0|i0001j:
+Sprint:                      quadro Sprint 1
+Story point estimate:        3
+detalhes:
+            DOR (Definition of Ready) para Jornada de Login:
+            Antes de iniciar o desenvolvimento, as seguintes condições devem ser atendidas:
+
+              1. Requisitos bem definidos:
+                       Todos os cenários de uso do login (ex.: login com e-mail/senha, redes sociais, biometria,
+                       recuperação de senha) estão documentados.
+                       Fluxo de UX/UI aprovado e acessível para a equipe de desenvolvimento.
+              2. Critérios técnicos preparados:
+                       API de autenticação definida e testada.
+                       Integrações necessárias (redes sociais, serviços de autenticação multifatorial) configuradas e
+                       prontas para uso.
+              3. Alinhamento de segurança:
+                       Políticas de segurança (como requisitos de senha, MFA, prevenção contra brute force) validadas
+                       pela equipe de segurança da informação.
+              4. Infraestrutura pronta:
+                       Sistemas de armazenamento de dados de login disponíveis.
+                       Ambiente de desenvolvimento configurado para testes e homologação.
+              5. Critérios de teste claros:
+                       Casos de teste definidos para todos os cenários, incluindo fluxos alternativos e mensagens de
+                       erro.
+
+
+            DOD (Definition of Done) para Jornada de Login:
+            A entrega será considerada concluída quando:
+
+                 Funcionalidades implementadas:
+
+              1. Login com e-mail e senha funcional.
+              2. Suporte a biometria ou outros métodos de autenticação alternativos implementado (se escopo do
+                 projeto).
+
+                 Usabilidade validada:
+
+              1. Testes de UX realizados, garantindo uma experiência simples e intuitiva.
+              2. Mensagens de erro e feedback claros implementados para todas as falhas possíveis.
+
+                 Segurança atendida:
+
+              1. Validações de segurança (ex.: proteção contra brute force, criptografia de dados sensíveis) verificadas
+                 e aprovadas.
+              2. MFA funcional (se aplicável)
+
+                 Testes concluídos:
+
+              1. Todos os casos de teste passaram, incluindo testes de unidade, integração e aceitação do usuário.
+              2. Fluxos alternativos e casos de erro testados e funcionando conforme esperado.
+
+                 Documentação entregue:
+
+              1. Documentação técnica sobre a implementação do login atualizada.
+              2. Manual para equipe de suporte sobre possíveis erros e soluções rápidas.
+
+                 Impacto validado:
+
+                 Métricas básicas de sucesso de login configuradas e monitoradas (ex.: taxa de sucesso, erros de
+                 autenticação).
+
+
+Descrição
+Eu como consumidor
+
+desejo começar minha jornada de preenchimento de preferências
+
+para que eu possa receber informações mais com o meu gosto
+
+Contexto
+
+Visto que o consumidor precisa dar início a etapa, ele precisa se interagir com uma intefarce que permite ele iniciar sua jornada
+
+Objetivo da tarefa
+
+Desenvolver a interface de pop up com o botão gerando um gatilho de início da jornada para preenchimento das preferências
+
+Critérios de aceite
+
+  1.   aplicar pelo ou menos 3 testes válidos
+  2.   validar se o consumidor recebeu o código pra login via código
+  3.   avaliar se os dados do cadastro estão válidos
+  4.   garantir que o botão de “ iniciar “ vai direcionar para tela de login
+  5.   avaliar se a interface está igual ao layout proposto
+
+considerar essa tela proposta no layout
+
+
+
+
+Inclusão do campo de preferencias no perfil do usuário (SCRUM-5)
+
+   [SCRUM-7] Construção da telas com informações adicionais ao cadastro Criado: 07/nov/24                     Atualizado(a): 07/nov/24
+
+
+Status:                       Tarefas pendentes
+Projeto:                      Desenvolvimento de software
+Componentes:                  Nenhum
+Versões afetadas:             Nenhum
+Versões corrigidas:           Nenhum
+Pai:                          Inclusão do campo de preferencias no perfil do usuário
+
+Tipo:                         História                                    Prioridade:            Medium
+Relator:                      Marcelle Amaral                             Responsável:           Não atribuído
+Resolução:                    Não resolvido(s)                            Votos:                 0
+Categorias:                   Nenhum
+Estimativa de trabalho        Desconhecido
+restante:
+Tempo gasto:                  Desconhecido
+Estimativa original:          Desconhecido
+
+Rank:                         0|i0001b:
+Sprint:
+
+
+
+
+Inclusão do campo de preferencias no perfil do usuário (SCRUM-5)
+
+  [SCRUM-6] Salvamento do dado no banco de dados Criado: 07/nov/24                 Atualizado(a): 07/nov/24
+
+
+Status:                   Tarefas pendentes
+Projeto:                  Desenvolvimento de software
+Componentes:              Nenhum
+Versões afetadas:         Nenhum
+Versões corrigidas:       Nenhum
+Pai:                      Inclusão do campo de preferencias no perfil do usuário
+
+Tipo:                     História                                 Prioridade:                        Medium
+Relator:                  Marcelle Amaral                          Responsável:                       Não atribuído
+Resolução:                Não resolvido(s)                         Votos:                             0
+Categorias:               Nenhum
+Estimativa de trabalho    Desconhecido
+restante:
+Tempo gasto:              Desconhecido
+Estimativa original:      Desconhecido
+
+Rank:                     0|i00013:
+Sprint:
+
+
+
+
+[SCRUM-5] Inclusão do campo de preferencias no perfil do usuário Criado: 07/nov/24                       Atualizado(a): 07/nov/24
+
+
+Status:                   Tarefas pendentes
+Projeto:                  Desenvolvimento de software
+Componentes:              Nenhum
+Versões afetadas:         Nenhum
+Versões corrigidas:       Nenhum
+
+Tipo:                     Epic                                     Prioridade:                        Medium
+Relator:                  Marcelle Amaral                          Responsável:                       Não atribuído
+Resolução:                Não resolvido(s)                         Votos:                             0
+Categorias:               Nenhum
+Estimativa de trabalho    Desconhecido
+restante:
+Tempo gasto:              Desconhecido
+Estimativa original:      Desconhecido
+
+Rank:                     0|i0000v:
+Issue color:              purple
+Inclusão do campo de preferencias no perfil do usuário (SCRUM-5)
+
+   [SCRUM-4] POP UP de sucesso do cadastro Criado: 07/nov/24             Atualizado(a): 24/nov/24
+
+
+Status:                      Tarefas pendentes
+Projeto:                     Desenvolvimento de software
+Componentes:                 Nenhum
+Versões afetadas:            Nenhum
+Versões corrigidas:          Nenhum
+Pai:                         Inclusão do campo de preferencias no perfil do usuário
+
+Tipo:                        História                                Prioridade:                     Medium
+Relator:                     Marcelle Amaral                         Responsável:                    Não atribuído
+Resolução:                   Não resolvido(s)                        Votos:                          0
+Categorias:                  Nenhum
+Estimativa de trabalho       Desconhecido
+restante:
+Tempo gasto:                 Desconhecido
+Estimativa original:         Desconhecido
+
+Rank:                        0|i00017:
+Sprint:
+
+
+
+
+Jornada de login (SCRUM-1)
+
+   [SCRUM-3] Login de usuário não cadastrado Criado: 07/nov/24            Atualizado(a): 30/nov/24
+
+
+Status:                      Tarefas pendentes
+Projeto:                     Desenvolvimento de software
+Componentes:                 Nenhum
+Versões afetadas:            Nenhum
+Versões corrigidas:          Nenhum
+Pai:                         Jornada de login
+
+Tipo:                        História                                Prioridade:                     Medium
+Relator:                     Marcelle Amaral                         Responsável:                    Não atribuído
+Resolução:                   Não resolvido(s)                        Votos:                          0
+Categorias:                  Nenhum
+Estimativa de trabalho       Desconhecido
+restante:
+Tempo gasto:                 Desconhecido
+Estimativa original:         Desconhecido
+
+Anexos:                        image-20241127-225252.png
+Rank:                        0|i0000f:
+Sprint:                      quadro Sprint 1
+Story point estimate:        5
+detalhes:
+            DOR (Definition of Ready) para Jornada de Login:
+            Antes de iniciar o desenvolvimento, as seguintes condições devem ser atendidas:
+
+              1. Requisitos bem definidos:
+                       Todos os cenários de uso do login (ex.: login com e-mail/senha, redes sociais, biometria,
+                       recuperação de senha) estão documentados.
+                       Fluxo de UX/UI aprovado e acessível para a equipe de desenvolvimento.
+              2. Critérios técnicos preparados:
+                       API de autenticação definida e testada.
+                       Integrações necessárias (redes sociais, serviços de autenticação multifatorial) configuradas e
+                       prontas para uso.
+              3. Alinhamento de segurança:
+                       Políticas de segurança (como requisitos de senha, MFA, prevenção contra brute force) validadas
+                       pela equipe de segurança da informação.
+              4. Infraestrutura pronta:
+                       Sistemas de armazenamento de dados de login disponíveis.
+                       Ambiente de desenvolvimento configurado para testes e homologação.
+              5. Critérios de teste claros:
+                       Casos de teste definidos para todos os cenários, incluindo fluxos alternativos e mensagens de
+                       erro.
+
+
+            DOD (Definition of Done) para Jornada de Login:
+            A entrega será considerada concluída quando:
+
+                 Funcionalidades implementadas:
+
+              1. Login com e-mail e senha funcional.
+              2. Suporte a biometria ou outros métodos de autenticação alternativos implementado (se escopo do
+                 projeto).
+
+                 Usabilidade validada:
+
+              1. Testes de UX realizados, garantindo uma experiência simples e intuitiva.
+              2. Mensagens de erro e feedback claros implementados para todas as falhas possíveis.
+
+                 Segurança atendida:
+
+              1. Validações de segurança (ex.: proteção contra brute force, criptografia de dados sensíveis) verificadas
+                 e aprovadas.
+              2. MFA funcional (se aplicável)
+
+                 Testes concluídos:
+
+              1. Todos os casos de teste passaram, incluindo testes de unidade, integração e aceitação do usuário.
+              2. Fluxos alternativos e casos de erro testados e funcionando conforme esperado.
+
+                 Documentação entregue:
+
+              1. Documentação técnica sobre a implementação do login atualizada.
+              2. Manual para equipe de suporte sobre possíveis erros e soluções rápidas.
+
+                 Impacto validado:
+
+                 Métricas básicas de sucesso de login configuradas e monitoradas (ex.: taxa de sucesso, erros de
+                 autenticação).
+
+
+
+Descrição
+Eu como consumidor
+
+desejo realizar o cadastro
+
+para que eu possa preencher minha preferências de produto
+
+Contexto
+
+Visto que o consumidor precisa estar cadastrado é necessário que ele realize o cadastro antes de começar a etapa de preenchimento
+das informações de suas preferências
+
+Objetivo da tarefa
+
+Desenvolver a interface de login pro usuário realizar o processo de cadastro
+
+Critérios de aceite
+
+  1.   aplicar pelo ou menos 3 testes válidos
+  2.   validar se o cadastro do consumidor foi salvo
+  3.   garantir cenários de erro com senha incorreta
+  4.   avaliar se a interface está igual ao layout proposto
+
+Considerar esse layout : https://www.figma.com/design/1ePUrNIr7VSEsmREIBfYr8/prot%C3%B3tipo-prefer%C3%AAncias?node-id=0-
+1&node-type=canvas&t=agRjbWP0nidPAxzd-0
+
+considerar a jornada de cadastro
+
+image-20241127-225252.png
+
+
+
+
+Jornada de login (SCRUM-1)
+
+   [SCRUM-2] Login de usuário cadastrado Criado: 07/nov/24         Atualizado(a): 30/nov/24
+
+
+
+Status:                      Tarefas pendentes
+Projeto:                     Desenvolvimento de software
+Componentes:                 Nenhum
+Versões afetadas:            Nenhum
+Versões corrigidas:          Nenhum
+Pai:                         Jornada de login
+
+Tipo:                        História                               Prioridade:               Medium
+Relator:                     Marcelle Amaral                        Responsável:              Não atribuído
+Resolução:                   Não resolvido(s)                       Votos:                    0
+Categorias:                  Nenhum
+Estimativa de trabalho       Desconhecido
+restante:
+Tempo gasto:                 Desconhecido
+Estimativa original:         Desconhecido
+Anexos:                     image-20241127-225221.png
+Rank:                   0|i00007:
+Sprint:                 quadro Sprint 1
+Story point estimate:   3
+detalhes:
+                        DOR (Definition of Ready) para Jornada de Login:
+                        Antes de iniciar o desenvolvimento, as seguintes condições devem ser atendidas:
+
+                            1. Requisitos bem definidos:
+                                     Todos os cenários de uso do login (ex.: login com e-mail/senha, redes sociais, biometria,
+                                     recuperação de senha) estão documentados.
+                                     Fluxo de UX/UI aprovado e acessível para a equipe de desenvolvimento.
+                            2. Critérios técnicos preparados:
+                                     API de autenticação definida e testada.
+                                     Integrações necessárias (redes sociais, serviços de autenticação multifatorial) configuradas e
+                                     prontas para uso.
+                            3. Alinhamento de segurança:
+                                     Políticas de segurança (como requisitos de senha, MFA, prevenção contra brute force) validadas
+                                     pela equipe de segurança da informação.
+                            4. Infraestrutura pronta:
+                                     Sistemas de armazenamento de dados de login disponíveis.
+                                     Ambiente de desenvolvimento configurado para testes e homologação.
+                            5. Critérios de teste claros:
+                                     Casos de teste definidos para todos os cenários, incluindo fluxos alternativos e mensagens de
+                                     erro.
+
+
+                        DOD (Definition of Done) para Jornada de Login:
+                        A entrega será considerada concluída quando:
+
+                               Funcionalidades implementadas:
+
+                            1. Login com e-mail e senha funcional.
+                            2. Suporte a biometria ou outros métodos de autenticação alternativos implementado (se escopo do
+                               projeto).
+
+                               Usabilidade validada:
+
+                            1. Testes de UX realizados, garantindo uma experiência simples e intuitiva.
+                            2. Mensagens de erro e feedback claros implementados para todas as falhas possíveis.
+
+                               Segurança atendida:
+
+                            1. Validações de segurança (ex.: proteção contra brute force, criptografia de dados sensíveis) verificadas
+                               e aprovadas.
+                            2. MFA funcional (se aplicável)
+
+                               Testes concluídos:
+
+                            1. Todos os casos de teste passaram, incluindo testes de unidade, integração e aceitação do usuário.
+                            2. Fluxos alternativos e casos de erro testados e funcionando conforme esperado.
+
+                               Documentação entregue:
+
+                            1. Documentação técnica sobre a implementação do login atualizada.
+                            2. Manual para equipe de suporte sobre possíveis erros e soluções rápidas.
+
+                               Impacto validado:
+
+                               Métricas básicas de sucesso de login configuradas e monitoradas (ex.: taxa de sucesso, erros de
+                               autenticação).
+
+
+Descrição
+Eu como consumidor
+
+desejo realizar o login
+
+para que eu possa preencher minha preferências de produto
+
+Contexto
+
+Visto que o consumidor precisa estar logado é necessário que ele realize o login para que as informações preenchidas possam ser
+salvas no cadastro
+
+Objetivo da tarefa
+
+Desenvolver a interface de login pro usuário que já possui cadastro
+
+Critérios de aceite
+
+  1.   aplicar pelo ou menos 3 testes válidos
+  2.   validar se o consumidor recebeu o código pra login via código
+  3.   garantir cenários de erro com senha incorreta
+  4.   avaliar se a interface está igual ao layout proposto
+
+Considerar esse layout : https://www.figma.com/design/1ePUrNIr7VSEsmREIBfYr8/prot%C3%B3tipo-prefer%C3%AAncias?node-id=0-
+1&node-type=canvas&t=agRjbWP0nidPAxzd-0
+
+considerar a primeira jornada
+
+
+
+
+[SCRUM-1] Jornada de login Criado: 07/nov/24      Atualizado(a): 30/nov/24
+
+
+
+Status:                     Tarefas pendentes
+Projeto:                    Desenvolvimento de software
+Componentes:                Nenhum
+Versões afetadas:           Nenhum
+Versões corrigidas:         Nenhum
+
+Tipo:                       Epic                                             Prioridade:     Medium
+Relator:                    Marcelle Amaral                                  Responsável:    Não atribuído
+Resolução:                  Não resolvido(s)                                 Votos:          0
+Categorias:                 Nenhum
+Estimativa de trabalho      Desconhecido
+restante:
+Tempo gasto:                Desconhecido
+Estimativa original:        Desconhecido
+
+Rank:                       0|hzzzzz:
+Issue color:                purple
+
+Descrição
+Como usuário final, desejo ter uma jornada de login simples, rápida e segura, que me permita acessar o aplicativo ou site de forma
+intuitiva e sem fricções, para que eu possa aproveitar a experiência do produto sem obstáculos.
+
+Objetivo para o Gerente de Produto Digital:
+Desenvolver e otimizar o fluxo de login, garantindo uma experiência de acesso fluida, com foco em segurança, usabilidade e redução de
+atritos, para aumentar a retenção e a satisfação do usuário e para que ele consiga preencher suas preferências.
+
+Principais entregáveis:
+
+     Recuperação de Senha Eficiente: processo de recuperação de senha fácil e intuitivo, com confirmações rápidas via e-mail ou
+     SMS.
+     Feedback de Erro Claro: mensagens claras e precisas para casos de erro no login, com orientação para resolução (ex.: senha
+     incorreta, conta bloqueada).
+     Análise de Performance: monitoramento de tempos de resposta, falhas de login e taxas de sucesso, para ajustar e melhorar
+     continuamente a jornada de acesso.
+
+Impacto esperado:
+
+     Aumento na taxa de sucesso de login, com menos abandonos.
+     Aumento no volume na alimentação das preferências do usuário
+
+
+
+
+Gerado em Sat Nov 30 17:27:03 GMT 2024 por Marcelle Amaral usando JIRA 1001.0.0-SNAPSHOT#100277-
+rev:7e8ac5651e781d9518e3de4e798ca5b89113acce.
+
